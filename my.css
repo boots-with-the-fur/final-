@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background-image: url(all-imgs/aa.jpg);
+    background-repeat: repeat;
+    background-size: 60px 70px;
+  }
+.back{
+    font-size: 16px;
+  line-height: 24px;
+  color:  rgb(66, 42, 26); 
+  background-color: antiquewhite;
+  padding:3%;
+  border: antiquewhite soild 2px;
+  border-radius: 20px;
+}
+img {
+    height: 300px;
+    width: 300px;
+    margin-right: 80px;
+    border: solid antiquewhite 50px;
+    border-radius: 20px;
+  }
+ul {
+    list-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    color:  rgb(66, 42, 26);
+    margin: auto;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+  }
+.div {
+    background-color: antiquewhite;
+    margin: 40px auto;
+    margin-top: 10px;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+  }
+.flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+  }
+.flex2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+  }
+a.nav-bar-link{
+    text-decoration: none;
+  }
+
+.nav-bar-list {
+    float: left;
+    padding-top: 10px;
+  }
+
+.nav-bar-link {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+  }
+.space {
+    margin-bottom: 20px;
+  }
+  .main-header {
+    padding-top: 100px;
+    height: 200px;
+    background: url("all-imgs/ban.webp") no-repeat center;
+    background-size: cover;
+  }
+
+  .buynow {
+    border: antiquewhite solid 20px;
+    border-radius: 20px;
+    color: rgb(66, 42, 26);
+    text-decoration: none;
+    background-color: antiquewhite;
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+

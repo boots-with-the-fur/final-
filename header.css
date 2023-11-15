@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(all-imgs/aa.jpg);
+    background-repeat: repeat;
+    background-size: 60px 70px;
+  }
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color:  rgb(66, 42, 26);
+}
+    
+.nav-bar {
+      list-style-type: none;
+      margin-top: 0;
+  }
+  a.nav-bar-link{
+      text-decoration: none;
+    }
+
+  .nav-bar-list {
+      float: left;
+      padding-top: 0px;
+    }
+
+  .nav-bar-link {
+      color: white;
+      font-size: 24px;
+      padding: 20px;
+    }
+  .space {
+      margin-bottom: 20px;
+    }
+  .main-header {
+      padding-top: 200px;
+      height: 250px;
+      background: url("all-imgs/ban.webp") no-repeat center;
+      background-size: cover;
+    }
+  h1 {
+      font-size: 5vw;
+      text-transform: uppercase;
+      font-weight: normal;
+      background-color: antiquewhite;
+      margin:auto;
+      color: rgb(66, 42, 26);
+    }
